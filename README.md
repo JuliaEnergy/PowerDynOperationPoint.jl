@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/JuliaEnergy/PowerDynOperationPoint.jl.svg?branch=master)](https://travis-ci.org/JuliaEnergy/PowerDynOperationPoint.jl)
-[![codecov](https://codecov.io/gh/JuliaEnergy/PowerDynOperationPoint.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/JuliaEnergy/PowerDynOperationPoint.jl)
+[![Build Status](https://travis-ci.org/JuliaEnergy/PowerDynOperationPoint.jl.svg?branch=master)](https://travis-ci.org/JuliaEnergy/PowerDynOperationPoint.jl/branches)
+[![codecov](https://codecov.io/gh/JuliaEnergy/PowerDynOperationPoint.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/JuliaEnergy/PowerDynOperationPoint.jl/branch/master)
 [![Stable Docs](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliaenergy.github.io/PowerDynamics.jl/stable/)
 [![Latest Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://juliaenergy.github.io/PowerDynamics.jl/latest/)
 [![Chat on Slack.](https://img.shields.io/badge/chat%20on-slack-yellow.svg)](https://julialang.slack.com/messages/CDAGL4T09/)
