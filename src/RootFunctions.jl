@@ -8,7 +8,7 @@ using PowerDynBase: AbstractState, GridDynamics
         grid::GridDynamics
     end
 
-Basic data structure providing a method to evalute a subtype of [`PowerDynSolve.GridDynamics`](@ref) as
+Basic data structure providing a method to evalute a subtype of [`PowerDynBase.GridDynamics`](@ref) as
 a right-hand-side function that can be used for root searching.
 """
 struct RootFunction
