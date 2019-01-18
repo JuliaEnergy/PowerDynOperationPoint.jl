@@ -1,7 +1,7 @@
 name = "PowerDynOperationPoint"
 uuid = "95be4243-a2fd-5eef-a7d1-2e97978993e7"
 authors = ["Tim Kittel <tim.kittel@elena-international.com>"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
