@@ -5,9 +5,9 @@ module PowerDynOperationPoint
 
 include("Errors.jl")
 include("RootFunctions.jl")
-include("operationpoint.jl")
+include("getOperationPoint.jl")
 
 export RootFunction
-export operationpoint
+export getOperationPoint
 
 end
