@@ -11,7 +11,7 @@ using NLsolve
 Find the operation point (fixed point of the right-hand-side) of a power grid (either `grid` or inferred)
 by using the initial value `start`.
 """
-function operationpoint(start::AbstractState{G, V, T}) where {G, V, T}
+function getOperationPoint(start::AbstractState{G, V, T}) where {G, V, T}
     if SlackAlgebraic ∉ start |> Nodes .|> parametersof .|> typeof
         throw(OperationPointError("currently not making any checks concerning assumptions of whether its possible to find the fixed point"))
     end
@@ -27,10 +27,10 @@ function operationpoint(start::AbstractState{G, V, T}) where {G, V, T}
     end
     State(grid, res.zero)
 end
-function operationpoint(grid::GridDynamics, start::AbstractState)
+function getOperationPoint(grid::GridDynamics, start::AbstractState)
     @assert grid === GridDynamics(start)
-    operationpoint(start)
+    getOperationPoint(start)
 end
-function operationpoint(grid::GridDynamics, start::AbstractVector)
-    operationpoint(State(grid, start))
+function getOperationPoint(grid::GridDynamics, start::AbstractVector)
+    getOperationPoint(State(grid, start))
 end
