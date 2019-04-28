@@ -1,7 +1,7 @@
 name = "PowerDynOperationPoint"
 uuid = "95be4243-a2fd-5eef-a7d1-2e97978993e7"
 authors = ["Tim Kittel <tim.kittel@elena-international.com>"]
-version = "0.2.0"
+version = "1.0.0"
 
 [deps]
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
@@ -10,7 +10,7 @@ PowerDynBase = "7ffb48b1-f436-5a59-a310-b4407da33972"
 [compat]
 DifferentialEquations = "^5"
 Julia = "^1.0"
-PowerDynBase = "^0"
+PowerDynBase = "1"
 
 [extras]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
